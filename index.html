@@ -4,7 +4,7 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Prioprepare : " />
+    <meta name="description" content="Prioprepare" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -29,7 +29,11 @@
       <section id="main_content" class="inner">
       <h2>As simple as hashing your document and storing it in a bank transfer</h2>
       <p>
-      The idea is simple: Compute a cryptographic hash value from a document and copy it to the text fields of a bank transfer. With such a hash value stored at a bank there is evidence for the existence of the contents of a document for a certain point in time. This can be used to e.g. support a proof of priority.
+      The idea is simple:
+      <br/>
+      Compute a <strong>cryptographic hash value</strong> from a document and copy it to the text fields of a <strong>bank transfer</strong>. With such a hash value stored at a bank there is <strong>evidence of the existence</strong> of the content of a document at a certain point in time. This can be used to e.g. support a proof of priority.
+      <br/>
+      Take the idea, use it for your document. <a href="http://www.schoenmeyer.de">Ralf</a>, the inventor of the technique, has published it in an <a href="http://www.schoenmeyer.de/prioprepare/en/files/prioritaet_fuer_alle.pdf">open access journal</a> in order to make sure it is free to use.
       </p>
 
 
@@ -43,16 +47,13 @@
       <!-- TODO: embed a iframe or directly embed the code on this website -->
 
       <h3>Windows</h3>
-      <p>You can download and use the <a href="http://www.schoenmeyer.de/prioprepare/en/files/prioprepare_SEPA.zip">Windows version</a> (win32, english, for text fields of IBAN bank transfers, 140 characters: 4 lines with 35 characters).
-      <br/>
-      After download, simply extract the file "prioprepare.exe" from the zip-archive. Load a file by selecting it, drag and dropping it or passing it as first parameter of prioprepare software.
+      <p>
+        You can download and use this <a href="http://www.schoenmeyer.de/prioprepare/en/files/prioprepare_SEPA.zip">Windows version</a>.
       </p>
-
-      <img src="images/screenshot-prioprepare-SEPA.png" />
-
-      <p>To prevent the document to be priority protected from later unintended modifications (which make their original SHA-256 hash value useless), also an archive can be created. This archive is a zip-file which contains a copy of the document along with the text protocol of the procedure.</p>
-
-      <!-- Link to original paper: <a href="http://www.schoenmeyer.de/prioprepare/en/files/prioritaet_fuer_alle.pdf"></a> -->
+          <img src="images/screenshot-prioprepare-SEPA.png" alt="screenshot of the prioprepare Windows software" />
+      <p>After download, simply extract the file "prioprepare.exe" from the zip-archive. Load a file by selecting it, drag and dropping it or passing it as first parameter of prioprepare software.
+      <br/>
+      To prevent the document to be priority protected from later unintended modifications (which make their original SHA-256 hash value useless), also an archive can be created. This archive is a zip-file which contains a copy of the document along with the text protocol of the procedure.</p>
 
       </section>
     </div>
@@ -61,7 +62,7 @@
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         <p class="copyright">Original idea and paper by <a href="http://www.schoenmeyer.de">Ralf Schönmeyer</a></p>
-        <p class="copyright">Web version by <a href="http://steren.fr">Steren Giannini</a></p>
+        <p class="copyright">Online version by <a href="http://steren.fr">Steren Giannini</a></p>
       </footer>
     </div>
 
