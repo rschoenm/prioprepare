@@ -17,8 +17,8 @@
     <div id="header_wrap" class="outer">
         <header class="inner">
           <p id="forkme_banner">View on GitHub: <a href="https://github.com/rschoenm/prioprepare-windows">Windows</a> - <a href="https://github.com/steren/prioprepare-web">Web</a></p>
-	
-          <h1 id="project_title">Prioprepare</h1> 	 
+
+          <h1 id="project_title">Prioprepare</h1>
           <h2 id="project_tagline">Priority for everyone</h2>
 
         </header>
@@ -43,14 +43,25 @@
       <p>Text fields for SEPA bank transfers offer 140 characters for a message. Some online web interfaces implement this not with a single field, but with two lines of 70 characters or four lines of 35 characters. In any case the text fields can carry a SHA-256 value consisting of 64 characters.</p>
 
       <h3>Online tool</h3>
-      <p>You can use this <a href="http://steren.github.io/prioprepare-web">client-side web version</a>. <br/> Your document will not be uploaded to a server, the hashing is done locally on your machine.</p>
-      <!-- TODO: embed a iframe or directly embed the code on this website -->
+      <p>You can use the following client-side web page: (also directly accessible from <a href="http://steren.github.io/prioprepare-web">here</a>).</p>
+      <iframe src="http://steren.github.io/prioprepare-web/
+" style="width:100%; height:450px;"></iframe>
 
-      <h3>Windows</h3>
+      <h3>Chrome app</h3>
+      <p>Similar to the online tool, you can install this <a href="https://chrome.google.com/webstore/detail/prioprepare/lekjackohbkgfieaaknhdkmjdoofccfi">application</a> for Chrome. It runs offline and has the same features as the web version.</p>
+
+      <img src="images/screenshot-chrome-app.png" alt="screenshot of the prioprepare Chrome app"/>
+
+
+
+      <h3>Windows app</h3>
       <p>
         You can download and use this <a href="http://www.schoenmeyer.de/prioprepare/en/files/prioprepare_SEPA.zip">Windows version</a>.
       </p>
-          <img src="images/screenshot-prioprepare-SEPA.png" alt="screenshot of the prioprepare Windows software" />
+
+
+      <img src="images/screenshot-prioprepare-SEPA.png" alt="screenshot of the prioprepare Windows software"/>
+
       <p>After download, simply extract the file "prioprepare.exe" from the zip-archive. Load a file by selecting it, drag and dropping it or passing it as first parameter of prioprepare software.
       <br/>
       To prevent the document to be priority protected from later unintended modifications (which make their original SHA-256 hash value useless), also an archive can be created. This archive is a zip-file which contains a copy of the document along with the text protocol of the procedure.</p>
