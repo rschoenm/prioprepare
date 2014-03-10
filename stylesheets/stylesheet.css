@@ -295,6 +295,11 @@ Full-Width Styles
   padding: 50px 10px 30px 10px;
 }
 
+#header_wrap .logo {
+  float:left;
+  margin-right: 25px;
+}
+
 #project_title {
   margin: 0;
   color: #fff;
