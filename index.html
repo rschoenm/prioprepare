@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html itemscope itemtype="http://schema.org/Article">
 
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Prioprepare" />
+
+    <meta property="og:title" content="Prioprepare: Priority for everyone" />
+    <meta property="og:image" content="http://rschoenm.github.io/prioprepare/images/prioprepare-fingerprint-logo.png" />
+    <meta property="og:description" content="As simple as hashing your document and storing it in a bank transfer" />
+
+    <meta itemprop="image" content="http://rschoenm.github.io/prioprepare/images/prioprepare-fingerprint-logo.png">
+
 	  <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Prioprepare</title>
+    <title>Prioprepare: Priority for everyone</title>
   </head>
 
   <body>
@@ -20,8 +27,8 @@
 
           <img src="images/prioprepare-fingerprint-logo-white.svg" title="Prioprepare logo" alt="a document with a finger" class="logo"/>
 
-          <h1 id="project_title">Prioprepare</h1>
-          <h2 id="project_tagline">Priority for everyone</h2>
+          <h1 id="project_title" itemprop="name">Prioprepare</h1>
+          <h2 id="project_tagline" itemprop="alternateName">Priority for everyone</h2>
 
         </header>
     </div>
@@ -29,11 +36,11 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-      <h2>As simple as hashing your document and storing it in a bank transfer</h2>
+      <h2 itemprop="description">As simple as hashing your document and storing it in a bank transfer</h2>
 
       <img src="images/prioprepare-explanation.svg" title="Explanation of the prioprepare principle" alt="compte fingerprint of a document, store this fingerprint in a bank transaction" />
 
-      <p>
+      <p itemprop="text">
       The idea is simple:
       <br/>
       Compute a <strong>cryptographic fingerprint</strong> from a document and copy it to the text fields of a <strong>bank transfer</strong>. With such a fingerprint (hash value) stored at a bank there is <strong>evidence of the existence</strong> of the content of a document at a certain point in time. This can be used to e.g. support a proof of priority.
@@ -77,8 +84,8 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Original idea and paper by <a href="http://www.schoenmeyer.de/prioprepare">Ralf Schönmeyer</a></p>
-        <p class="copyright">Online version by <a href="http://steren.fr">Steren Giannini</a></p>
+        <p class="copyright">Original idea and paper by <a itemprop="author" href="http://www.schoenmeyer.de/prioprepare">Ralf Schönmeyer</a></p>
+        <p class="copyright">Online version by <a itemprop="author" href="http://steren.fr">Steren Giannini</a></p>
         <p class="copyright">Website hosting and theme by <a href="https://github.com">GitHub</a></p>
       </footer>
     </div>
